@@ -42,6 +42,8 @@ public class AllAnnotations {
 	@Test
 	public void testMethod1() {
 		System.out.println("i am in test method");
+		//git commit
+		system.out.println("adding changes in git repository");
 	}
 
 }
