@@ -54,6 +54,7 @@ public class ExtentReportPgm {
 		// log with snapshot
 		test.fail("details", MediaEntityBuilder.createScreenCaptureFromPath("screenshot.png").build());
 
+		test.p
 		// test with snapshot
 		test.addScreenCaptureFromPath("screenshot.png");  
 	}
